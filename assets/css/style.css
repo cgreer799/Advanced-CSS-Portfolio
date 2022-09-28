@@ -1,0 +1,169 @@
+:root {
+    --color-one: #38373a;
+    --color-two: #cdb7ff;
+    --color-three: #48038d;
+}
+
+body{
+    color: var(--color-three);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+section {
+    padding: 60px;
+}
+
+header{
+    background-color: var(--color-one);
+    color: var(--color-one);
+    padding: 15px 50px 15px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 100%;
+}
+
+header h1{
+    font-size: 300%;
+    background-color: var(--color-two);
+    padding: 3px 15px 3px 70px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header nav ul li{
+    padding: 0 5px 0;   
+}
+
+header nav ul a{
+    display: flex;
+    padding: 20px 3px 3px;
+    font-size: 150%;
+    text-decoration: none;
+    border-bottom: 3px solid;
+    align-items: flex-end;
+    align-self: center;
+}
+
+header li a{
+    color: var(--color-two);
+}
+
+header li a:hover{
+    color:#7612E2;
+}
+
+.subtitle{
+    background-image: url('../images/background.jpeg');
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-position: 100%;
+    height: 300px;
+}
+
+.subtitle h2{
+    position: relative;
+    color: var(--color-one);
+    top: 175px;
+    background-color: var(--color-two);
+    font-size: 200%;
+    padding: 3px 15px 3px 15px;
+}
+
+
+.card-title{
+    font-size: 54px;
+    padding-bottom: 20px;
+    margin: 0 0 5px 50px;
+    flex: 0 0 10px;
+    text-align: right;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.card-text {
+    flex: 0 0 70%;
+    align-self: center;
+}  
+
+.vl {
+    border-left: 4px solid;
+    margin: 0px 50px 20px 20px;
+}
+
+.work-image1{
+    border: 5px solid var(--color-two);
+    width: 1000px;
+    height: 400px;
+    object-fit:cover
+}
+
+figure{
+    object-position: 100% 0.5%;
+}
+
+.figure-title{
+    padding: 10px;
+    background-color: var(--color-two);
+    position: absolute;
+    transform: translate(0%,-140%);
+}
+
+.work-image{
+    border: 5px solid var(--color-two);
+    width: 500px;
+    height: 200px;
+    object-fit:cover
+    object-position: 100% 0.5%;
+}
+
+figure h2{
+    font-size: 125%;
+    padding-bottom: 5px;
+}
+
+.figure-title:hover{
+    color: var(--color-one);
+}
+
+.contact-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-links li{
+    padding: 0 50px 0;   
+}
+
+.contact-links li a{
+    color: var(--color-three)
+    display: flex;
+    padding: 20px 3px 3px;
+    font-size: 125%;
+    text-decoration: none;
+    border-bottom: 3px solid;
+    align-items: flex-end;
+    align-self: center;
+}
+
+.contact-links li a:hover{
+    color: var(--color-two);
+}
