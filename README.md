@@ -4,6 +4,6 @@ This is a portfolio template website that I will be adding to with projects I ma
 
 https://www.awesomescreenshot.com/image/32693406?key=9bce6d49815cbe0478486d2f54d221e9
 
-Repository Link:
+Repository Link: https://github.com/cgreer799/Advanced-CSS-Portfolio
 
-Deployed Application Link:
+Deployed Application Link: https://cgreer799.github.io/Advanced-CSS-Portfolio/
