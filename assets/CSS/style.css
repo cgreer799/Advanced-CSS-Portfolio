@@ -1,11 +1,12 @@
 :root {
-    --color-one: #38373a;
-    --color-two: #cdb7ff;
-    --color-three: #48038d;
+    --dark: #38373a;
+    --light-purple: #cdb7ff;
+    --purple: #48038d;
+    --teal: rgb(2, 150, 150);
 }
 
 body{
-    color: var(--color-three);
+    color: var(--purple);
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -14,8 +15,8 @@ section {
 }
 
 header{
-    background-color: var(--color-one);
-    color: var(--color-one);
+    background-color: var(--dark);
+    color: var(--dark);
     padding: 15px 50px 15px 0;
     display: flex;
     justify-content: space-between;
@@ -27,7 +28,7 @@ header{
 
 header h1{
     font-size: 300%;
-    background-color: var(--color-two);
+    background-color: var(--light-purple);
     padding: 3px 15px 3px 70px;
 }
 
@@ -53,7 +54,7 @@ header nav ul a{
 }
 
 header li a{
-    color: var(--color-two);
+    color: var(--light-purple);
 }
 
 header li a:hover{
@@ -72,9 +73,9 @@ header li a:hover{
 
 .subtitle h2{
     position: relative;
-    color: var(--color-one);
+    color: var(--dark);
     top: 175px;
-    background-color: var(--color-two);
+    background-color: var(--light-purple);
     font-size: 200%;
     padding: 3px 15px 3px 15px;
 }
@@ -105,8 +106,12 @@ header li a:hover{
     margin: 0px 50px 20px 20px;
 }
 
+#card-work{   
+    margin: 20px 20px 20px 20px;
+}
+
 .work-image1{
-    border: 5px solid var(--color-two);
+    border: 5px solid var(--light-purple);
     width: 1000px;
     height: 400px;
     object-fit:cover
@@ -118,15 +123,15 @@ figure{
 
 .figure-title{
     padding: 10px;
-    background-color: var(--color-two);
+    background-color: var(--light-purple);
     position: absolute;
     transform: translate(0%,-140%);
 }
 
 .work-image{
-    border: 5px solid var(--color-two);
+    border: 5px solid var(--light-purple);
     width: 500px;
-    height: 200px;
+    height: 300px;
     object-fit:cover
     object-position: 100% 0.5%;
 }
@@ -137,7 +142,7 @@ figure h2{
 }
 
 .figure-title:hover{
-    color: var(--color-one);
+    color: var(--dark);
 }
 
 .contact-links{
@@ -154,7 +159,7 @@ figure h2{
 }
 
 .contact-links li a{
-    color: var(--color-three)
+    color: var(--purple)
     display: flex;
     padding: 20px 3px 3px;
     font-size: 125%;
@@ -165,5 +170,5 @@ figure h2{
 }
 
 .contact-links li a:hover{
-    color: var(--color-two);
+    color: var(--light-purple);
 }
